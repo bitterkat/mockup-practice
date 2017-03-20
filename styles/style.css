@@ -1,5 +1,19 @@
+* {
+  box-sizing: border-box;
+  }
+
 html {
-background-color: lightgray;
+  background-color: lightgray;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: lighter;
 }
 
 a, a:visited {
@@ -16,13 +30,9 @@ nav {
     padding: .5rem .75rem;
 }
 
-.copyright {
-  text-align: center;
-  padding: .75rem;
-}
-
 nav li {
   display: inline;
+  font-size: 1.25rem;
   padding: 1rem;
 }
 
@@ -38,13 +48,24 @@ nav a, nav a:visited {
 
 .topnav {
   float: right;
+  font-size: 1.25rem;
 }
 
 .main-aside {
-  margin: .5rem;
+  flex-direction: column-reverse;
+  margin-right: 1rem;
   padding: .5rem;
   border: 1px solid black;
+  width: 20rem;
+}
 
+.main-aside h3 {
+  text-align: center;
+}
+
+.copyright {
+  text-align: center;
+  padding: .75rem;
 }
 
 .quote {
