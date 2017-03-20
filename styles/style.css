@@ -11,13 +11,14 @@ main {
   padding: .75rem;
 }
 
-nav, footer {
+nav {
     background-color: lightgray;
     padding: .5rem .75rem;
 }
 
 .copyright {
   text-align: center;
+  padding: .75rem;
 }
 
 nav li {
@@ -29,7 +30,7 @@ nav a, nav a:visited {
   color: purple;
 }
 
-.title {
+.title, footer {
   background-color: black;
   color: white;
   padding: .75rem;
@@ -40,5 +41,12 @@ nav a, nav a:visited {
 }
 
 .main-aside {
-  float: right;
+  margin: .5rem;
+  padding: .5rem;
+  border: 1px solid black;
+
+}
+
+.quote {
+  font-style: italic;
 }
