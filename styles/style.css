@@ -6,6 +6,11 @@ html {
   background-color: lightgray;
 }
 
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
 img {
   display: block;
   margin-left: auto;
@@ -27,13 +32,10 @@ main {
 
 nav {
     background-color: lightgray;
-    padding: .5rem .75rem;
-}
-
-nav li {
-  display: inline;
-  font-size: 1.25rem;
-  padding: 1rem;
+    padding: .75rem 1rem;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.25rem;
 }
 
 nav a, nav a:visited {
@@ -46,21 +48,45 @@ nav a, nav a:visited {
   padding: .75rem;
 }
 
+.title h1 {
+  padding-top: 4rem;
+}
+
+.title h2 {
+  color: lightgray;
+}
+
 .topnav {
   float: right;
   font-size: 1.25rem;
 }
 
+.main-content {
+  display: flex;
+  flex-direction: column;
+  padding: .75rem;
+}
+
 .main-aside {
-  flex-direction: column-reverse;
-  margin-right: 1rem;
-  padding: .5rem;
+  float: right;
+  width: 33%;
   border: 1px solid black;
-  width: 20rem;
+  padding: .75rem;
+}
+
+.main-aside figure {
+  display: inline-block;
+  margin: 0;
 }
 
 .main-aside h3 {
   text-align: center;
+  margin-top: 1.25rem;
+}
+
+.right {
+  display: block;
+  float: right;
 }
 
 .copyright {
