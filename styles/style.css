@@ -3,35 +3,16 @@
   }
 
 html {
-  background-color: lightgray;
+  background-color: #ffffff;
   font-size: 16px;
-}
-
-#container {
-  display: flex;
-  flex-direction: column;
-}
-
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 a, a:visited {
   color: red;
 }
 
-main {
-  background-color: white;
-  padding: .75rem;
-}
-
 nav {
     background-color: lightgray;
-    padding: .75rem 1rem;
-    display: flex;
-    justify-content: space-around;
     font-size: 1.25rem;
 }
 
@@ -42,7 +23,6 @@ nav a, nav a:visited {
 .title, footer {
   background-color: black;
   color: white;
-  padding: .75rem;
 }
 
 .title h1 {
@@ -55,38 +35,6 @@ nav a, nav a:visited {
 
 .title a {
   font-size: 1.25rem;
-}
-.main-content {
-  display: flex;
-  flex-direction: column;
-  padding: .5rem;
-}
-
-.main-aside {
-  float: right;
-  width: 33%;
-  border: 1px solid black;
-  padding: .75rem;
-}
-
-.main-aside figure {
-  display: inline-block;
-  margin: 0;
-}
-
-.main-aside h3 {
-  text-align: center;
-  margin-top: 1.25rem;
-}
-
-.booknow {
-  display: block;
-  float: right;
-}
-
-.copyright {
-  text-align: center;
-  padding: .75rem;
 }
 
 .quote {
