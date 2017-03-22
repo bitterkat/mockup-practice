@@ -3,6 +3,11 @@
   flex-direction: column;
 }
 
+.main-aside h3 {
+  margin-top: -.1rem;
+  margin-bottom: -.05rem;
+}
+
 /*img {
   display: block;
   margin-left: auto;
@@ -49,7 +54,7 @@ footer {
   flex-direction: column;
 }
 
-.main-aside-article p {
+.main-aside-article {
   position: relative;
 }
 
@@ -57,10 +62,10 @@ footer {
   text-align: center;
 }
 
-.booknow  {
+.main-aside-article .booknow  {
   position: absolute;
   right: 0;
-  bottom: .15rem;
+  bottom: 0;
 }
 
 .copyright {
