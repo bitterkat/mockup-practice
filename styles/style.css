@@ -4,10 +4,6 @@ html {
   font-family: "Lucinda Sans", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 400;
-}
-
 p {
   line-height: 1.5rem;
 }
@@ -105,7 +101,7 @@ nav {
   position: absolute;
   display: block;
   right: -5rem;
-  bottom: 0rem;
+  bottom: 0;
 }
 
 .copyright {
