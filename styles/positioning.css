@@ -1,5 +1,3 @@
-
-
 #container {
   display: flex;
   flex-direction: column;
@@ -23,64 +21,53 @@ main {
 }
 
 footer {
-display: flex;
+  padding: 1.25rem;
 }
 
-/*.title h1 {
+.title h1 {
   padding-top: 4rem;
-}*/
+}
 
 .main-row {
   display: flex;
   flex-direction: row;
-  /*flex-wrap: nowrap;*/
-  /*justify-content: flex-start;*/
-  /*align-content: stretch;*/
-  /*align-items: flex-start;*/
 }
 
-.main-row .main-copy,
 .main-row .main-aside {
-  /*order: 0;*/
-  /*flex: 0 1 auto;*/
-  /*align-self: stretch;*/
-}
-.main-row .main-aside {
-  /*order: 0;*/
-  /*flex: 1 1 auto;*/
-  /*align-self: stretch;*/
   display: flex;
   flex-direction: column;
-  /*position: absolute;
-  right: 2rem;
-  top: 20rem;*/
+}
+
+.main-copy {
+  margin-left: 1rem;
 }
 
 .main-aside {
-  /*position: absolute;
-  right: 2rem;
-  top: 1rem;*/
-  /*width: 40rem;*/
+  margin: 1.5rem 1rem 1.5rem;
   border: 1px solid black;
 }
 
-/*.main-aside figure {
+.main-aside-article {
+    padding: .75rem 1rem .75rem;
+      position: relative;
+      }
+
+.main-aside-article figure {
   display: inline-block;
   margin: 0;
-}*/
-
-/*.main-aside h3 {
-  text-align: center;
-  margin-top: 1.25rem;
 }
 
-.booknow {
+.main-aside-article h3 {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.main-aside-article .booknow {
   position: absolute;
-  right: 2rem;
-  top: 7rem;
-}*/
+  right: -1rem;
+  top: 14rem;
+}
 
 .copyright {
   text-align: center;
-  padding: .75rem;
 }
