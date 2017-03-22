@@ -15,18 +15,18 @@ nav {
   justify-content: space-around;
 }
 
-main {
+/*main {
   display: flex;
   flex-direction: column;
-}
+}*/
 
 footer {
   padding: 1.25rem;
 }
 
-.title h1 {
+/*.title h1 {
   padding-top: 4rem;
-}
+}*/
 
 .main-row {
   display: flex;
@@ -39,33 +39,28 @@ footer {
 }
 
 .main-copy {
-  margin-left: 1rem;
+  margin: 1.25rem .5rem 0 1.25rem;
 }
 
 .main-aside {
-  margin: 1.5rem 1rem 1.5rem;
+  margin: 1.25rem .5rem;
   border: 1px solid black;
+  display: flex;
+  flex-direction: column;
 }
 
-.main-aside-article {
-    padding: .75rem 1rem .75rem;
-      position: relative;
-      }
-
-.main-aside-article figure {
-  display: inline-block;
-  margin: 0;
+.main-aside-article p {
+  position: relative;
 }
 
 .main-aside-article h3 {
   text-align: center;
-  margin-top: 1rem;
 }
 
-.main-aside-article .booknow {
+.booknow  {
   position: absolute;
-  right: -1rem;
-  top: 14rem;
+  right: 0;
+  bottom: .15rem;
 }
 
 .copyright {
