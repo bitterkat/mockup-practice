@@ -1,0 +1,86 @@
+
+
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
+/*img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}*/
+
+nav {
+  padding: .75rem 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+display: flex;
+}
+
+/*.title h1 {
+  padding-top: 4rem;
+}*/
+
+.main-row {
+  display: flex;
+  flex-direction: row;
+  /*flex-wrap: nowrap;*/
+  /*justify-content: flex-start;*/
+  /*align-content: stretch;*/
+  /*align-items: flex-start;*/
+}
+
+.main-row .main-copy,
+.main-row .main-aside {
+  /*order: 0;*/
+  /*flex: 0 1 auto;*/
+  /*align-self: stretch;*/
+}
+.main-row .main-aside {
+  /*order: 0;*/
+  /*flex: 1 1 auto;*/
+  /*align-self: stretch;*/
+  display: flex;
+  flex-direction: column;
+  /*position: absolute;
+  right: 2rem;
+  top: 20rem;*/
+}
+
+.main-aside {
+  /*position: absolute;
+  right: 2rem;
+  top: 1rem;*/
+  /*width: 40rem;*/
+  border: 1px solid black;
+}
+
+/*.main-aside figure {
+  display: inline-block;
+  margin: 0;
+}*/
+
+/*.main-aside h3 {
+  text-align: center;
+  margin-top: 1.25rem;
+}
+
+.booknow {
+  position: absolute;
+  right: 2rem;
+  top: 7rem;
+}*/
+
+.copyright {
+  text-align: center;
+  padding: .75rem;
+}
