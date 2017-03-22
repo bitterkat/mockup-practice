@@ -12,8 +12,8 @@ a, a:visited {
 }
 
 nav {
-    background-color: lightgray;
-    font-size: 1.25rem;
+  background-color: lightgray;
+  font-size: 1.25rem;
 }
 
 nav a, nav a:visited {
@@ -23,10 +23,6 @@ nav a, nav a:visited {
 .title, footer {
   background-color: black;
   color: white;
-}
-
-.title h1 {
-  padding-top: 4rem;
 }
 
 .title h2 {
